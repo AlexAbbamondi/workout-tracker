@@ -17,7 +17,7 @@
 ![image](https://user-images.githubusercontent.com/39712161/129802986-268cdc7d-0ea2-41e8-a590-64024531a07c.png)
 
 <h3>License</h3>
- ![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+ [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
  
 <h3>Usage Instructions</h3>
 -To run this app you must run the seed file using 'npm run seed' and then start up the application by using 'nodemon'

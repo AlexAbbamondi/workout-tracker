@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-//workout schema for structure
+//workout schema
 const workoutSchema = new Schema({
     day: {
         type: Date,
@@ -25,7 +25,9 @@ const workoutSchema = new Schema({
             required: true,
             trim: true
           },
-          weight: Number,
+          weight: {
+            type: Number
+          },
           reps: Number,
           sets: Number,
           distance: Number,
